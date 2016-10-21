@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ayu="http://mysave.ayu.com"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.ayu.mysave.widget.FileList
+        android:id="@+id/fileListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        ayu:folderImage="@drawable/folder"
+        ayu:extName1="jpg"
+        ayu:fileImage1="@drawable/jpg"
+        ayu:extName2="jpeg"
+        ayu:fileImage2="@drawable/jpg"
+        ayu:otherFileImage="@drawable/other"></com.ayu.mysave.widget.FileList>
+
+</LinearLayout>
+
